@@ -1,0 +1,27 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon16.png",
+      "default_title": "Agarbot.ovh Bots for agar.io ext"
+   },
+   "content_scripts": [ {
+      "js": [ "agario/socket.io.js", "agario/jquery.js", "agario/content.js"],
+	  "css": [ "agario/ui.css" ],
+      "matches": ["https://agar.io/", "https://agar.io/?", "https://agar.io/index.html" , "https://agar.io/", "https://agar.io/?"],
+      "run_at": "document_start"
+	}],
+   "description": "This extension lets you use agarbot.ovh bots in agar.io",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "background": {
+    "scripts": ["agario/jquery.js","agario/back.js"]
+   },
+   "web_accessible_resources": ["agario/socket.io.js", "agario/agarclient.js", "agario/jquery.js","data/*.json"],
+   "manifest_version": 2,
+   "name": "Agarbot.ovh Bots for agar.io",
+   "permissions": [ "\u003Call_urls>", "cookies", "http://agar.io/*", "https://agar.io/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.1"
+}
