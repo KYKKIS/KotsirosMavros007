@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html  dir="ltr" lang="el" xml:lang="el" class="no-js">
+<head>
+    <title>Υπηρεσία ηλεκτρονικών μαθημάτων ΑΠΘ: Σύνδεση στον ιστότοπο</title>
+    <link rel="shortcut icon" href="https://elearning.auth.gr/theme/image.php/essential/theme/1610030794/favicon"/>
+ 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Υπηρεσία ηλεκτρονικών μαθημάτων ΑΠΘ: Σύνδεση στον ιστότοπο" />
+<link rel="stylesheet" type="text/css" href="https://elearning.auth.gr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://elearning.auth.gr/theme/styles.php/essential/1610030794_1604644460/all" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/elearning.auth.gr","sesskey":"sFWMnzs7Db","themerev":"1610030794","slasharguments":1,"theme":"essential","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1610030794","admin":"admin","svgicons":true,"usertimezone":"\u0395\u03c5\u03c1\u03ce\u03c0\u03b7\/\u0395\u03bb\u03c3\u03af\u03bd\u03ba\u03b9","contextid":1};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/elearning.auth.gr\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/elearning.auth.gr\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/elearning.auth.gr\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/elearning.auth.gr\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/elearning.auth.gr\/theme\/yui_combo.php?m\/1610030794\/","combine":true,"comboBase":"https:\/\/elearning.auth.gr\/theme\/yui_combo.php?","ext":false,"root":"m\/1610030794\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_scheduler-delselected":{"requires":["base","node","event"]},"moodle-mod_scheduler-studentlist":{"requires":["base","node","event","io"]},"moodle-mod_scheduler-saveseen":{"requires":["base","node","event"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-block_xp-rulepicker":{"requires":["base","node","handlebars","moodle-core-notification-dialogue"]},"moodle-block_xp-notification":{"requires":["base","node","handlebars","button-plugin","moodle-core-notification-dialogue"]},"moodle-block_xp-filters":{"requires":["base","node","moodle-core-dragdrop","moodle-block_xp-rulepicker"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-format_authgrid-authgridkeys":{"requires":["event-nav-keys"]},"moodle-format_grid-gridkeys":{"requires":["event-nav-keys"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/elearning.auth.gr\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/elearning.auth.gr\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1610030794\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/elearning.auth.gr\/lib\/javascript.php\/1610030794\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/elearning.auth.gr\/lib\/javascript.php\/1610030794\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.9\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700italic,700,800&subset=latin,greek' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="apple-touch-icon-precomposed" href="//cdn.it.auth.gr/images/logos/services/elearning/elearning-128.png">
+<link rel="icon" type="image/png" href="//cdn.it.auth.gr/images/logos/services/elearning/elearning-128.png">
+<meta name="theme-color" content="#30ADD1" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#showHide").click(function(){
+    $("#toggleText").toggle();
+  });
+});
+</script>
+<link href="https://cdn.it.auth.gr/code/UIv3/CSS/ui-base.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.it.auth.gr/code/UIv3/CSS/template/ui-base-specific.css" rel="stylesheet" type="text/css">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google web fonts -->
+        <!-- iOS Homescreen Icons -->
+    
+<link rel="apple-touch-icon" sizes="57x57" href="https://elearning.auth.gr/theme/image.php/essential/theme/1610030794/homeicon/iphone"/>
+<link rel="apple-touch-icon" sizes="72x72" href="https://elearning.auth.gr/theme/image.php/essential/theme/1610030794/homeicon/ipad"/>
+<link rel="apple-touch-icon" sizes="114x114" href="https://elearning.auth.gr/theme/image.php/essential/theme/1610030794/homeicon/iphone_retina"/>
+<link rel="apple-touch-icon" sizes="144x144" href="https://elearning.auth.gr/theme/image.php/essential/theme/1610030794/homeicon/ipad_retina"/>    <!-- Start Analytics -->
+        <!-- End Analytics -->
+   
+    <link href="https://cdn.it.auth.gr/code/UIv3/CSS/ui-base.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.it.auth.gr/code/UIv3/CSS/template/ui-base-specific.css" rel="stylesheet" type="text/css"/>
+    <link href="https://cdn.it.auth.gr/code/UIv3/CSS/services/elearning/ui-base-specific-elearning.css" rel="stylesheet" type="text/css"/>
+
+    <link href="https://cdn.it.auth.gr/fonts/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet"/>
+    <link href="https://cdn.it.auth.gr/fonts/gfonts/opensans/opensans.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="https://cdn.it.auth.gr/libraries/jquery/jquery-2.1.1.min.js"></script> 
+    
+    <!-- For sidenav-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script> 
+    <script type="text/javascript" src="https://cdn.it.auth.gr/code/UIv3/JS/ui-base-sidenav.js"></script>
+    <!-- For accordion-->
+    <script type="text/javascript" src="https://cdn.it.auth.gr/code/UIv3/JS/ui-base-accordion.js"></script>    
+    
+    <script type="text/javascript" src="https://cdn.it.auth.gr/code/UIv3/JS/ui-base.js"></script>
+
+</head>
+
+<body  id="page-auth-saml-login" class="format-site  path-auth path-auth-saml dir-ltr lang-el yui-skin-sam yui3-skin-sam elearning-auth-gr pagelayout-login course-1 context-1 notloggedin desktopdevice pagewidthvariable categoryicons hasboringlayout has-region-footer-left empty-region-footer-left has-region-footer-middle empty-region-footer-middle has-region-footer-right empty-region-footer-right content-only">
+
+<div class="skiplinks">
+    <a href="#maincontent" class="skip">Μετάβαση στο κεντρικό περιεχόμενο</a>
+</div><script type="text/javascript" src="https://elearning.auth.gr/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://elearning.auth.gr/lib/javascript.php/1610030794/lib/javascript-static.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+<header role="banner">
+
+
+    <div id="page-header" class="clearfix oldnavbar nologo">
+        <div class="container-fluid">
+         <!--    <div class="row-fluid"> -->
+                <!-- HEADER: LOGO AREA -->
+           <div class="pull-right">
+
+                <div class="ui_header" id="ui_header_specific">
+                    <div class="ui_header__active_area">
+
+
+<!-- Header Sidenav-Option (mobile) -->
+                <div class="ui_header__part ui_header__sidenav_option" id="ui_header__sidenav_option_specific">
+                     <div class="ui_sidenav_option">
+                        <ul id="slide-out" class="side-nav">
+                                                       <li class="ui--padding_half"><a href="/login/index.php" class="ui_button ui_text--size-S ui--backgroundcolor_of_elearning ui_text--contrast ui--margin_top_30x">Login</a></li>
+                            			     <br>		
+			     <li><a href="contact.php">Επικοινωνία</a></li>	
+                             <!-- <li><a href="statistics/index.php">Στατιστικά</a></li> -->
+                        </ul>
+
+                        <div class="fa fa-bars fa-fw button-collapse" data-activates="slide-out"></div> 
+                    </div>
+                </div>
+
+<!-- Header Title -->
+    
+                <div class="ui_header__part ui_header__title">
+                    <a class="ui_header__logo ui--clearfix" id="ui_header__logo_specific"  href="//elearning.auth.gr" >
+                        <span class="ui_header__title--partA">elearning</span><span class="ui_header__title--partB">.auth</span>
+                        <span class="ui_header__title--seperator">| </span>
+                        <span class="ui_header__title--partC">Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</span>  
+                    </a>
+                </div>
+                
+
+<!-- Header Login-options -->
+                 <div class="ui_header__part ui_header__login_options" id="ui_header__login_options_specific">
+
+
+
+                    <a  href="/login/index.php" class="ui_button ui_text--size-S ui--backgroundcolor_of_elearning ui_text--contrast">Login</a>                </div>
+
+
+
+<!-- Header Menu-options -->
+
+                <div class="ui_header__part ui_header__menu_options" id="ui_header__menu_options_specific">
+                 
+<!--  Header Menu-options - Menu -->
+
+<!-- Header Menu-options - Search button 
+
+        <div class="ui_header__option ui_header__option_specific" id="custom_menu_search">
+                        <form id="coursesearch" action="https://exams.it.auth.gr/course/search.php" method="get">
+                                <div class="ui_box ui_box--no_style ui--no_padding ui--no_margin">
+                                    <input class="ui_inputTextfield" type="text" id="shortsearchbox" name="search" 
+                                        value="Search course..."  onblur="if (this.value == '') {this.value = 'Search course...';}" 
+                                        onfocus="if (this.value == 'Search course...') {this.value = '';}" style="position:relative; left:0px; top:-13px; " >     
+                                </div>
+                                </form>
+                        </div>         
+ end of search button -->  
+
+<!-- Header Menu-options - Announce -->
+
+                    <div class="ui_header__option ui_header__option_specific ui_dropdown">
+
+                        <div class="fa ui_header__option--text"><a href="/contact.php"> Επικοινωνία </a></div>
+                       
+                    </div>
+
+
+
+<!-- Header Menu-options - Language -->
+                    <div class="ui_header__option ui_header__option_specific"  id="custom_menu_language">
+                        <div class="ui_header__option ui_header__option_specific ui_dropdown"> <div class="fa ui_header__option--text" id="ui_header__language_select--el"><a href="https://elearning.auth.gr/auth/saml/login.php?lang=el">Ελληνικά ‎(el)‎</a></div><ul class="ui_dropdown__options"><li><a class="ui_header__option_specific_li" id="ui_header__language_select--el" href="https://elearning.auth.gr/auth/saml/login.php?lang=el">Ελληνικά ‎(el)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--de" href="https://elearning.auth.gr/auth/saml/login.php?lang=de">Deutsch ‎(de)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--en" href="https://elearning.auth.gr/auth/saml/login.php?lang=en">English ‎(en)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--es" href="https://elearning.auth.gr/auth/saml/login.php?lang=es">Español - Internacional ‎(es)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--fr" href="https://elearning.auth.gr/auth/saml/login.php?lang=fr">Français ‎(fr)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--it" href="https://elearning.auth.gr/auth/saml/login.php?lang=it">Italiano ‎(it)‎</a></li><li><a class="ui_header__option_specific_li" id="ui_header__language_select--pt" href="https://elearning.auth.gr/auth/saml/login.php?lang=pt">Português - Portugal ‎(pt)‎</a></li></ul></div>                    </div>
+                    
+
+
+                </div> 
+
+
+<!-- Header Menu-options-dropdown (mobile) 
+                <div class="ui_header__part ui_header__menu_options_dropdown" id="ui_header__menu_options_dropdown_specific">
+                    <div class="ui_header__option ui_header__option_specific ui_dropdown">
+                        <div class="fa fa-ellipsis-v fa-fw"></div>
+                        <ul class="ui_dropdown__options">
+                            <li><a href="contact.php">Επικοινωνία</a></li>
+                            <li><a href="statistics/index.php">Στατιστικά</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div> -->
+        </div>
+    
+            </div>
+        </div>
+    </div>
+
+    <nav id="essentialnavbar" role="navigation" class="moodle-has-zindex oldnavbar nologo" style="top: 75px;" >
+        <div class="navbar">
+            <div class="container-fluid navbar-inner">
+                <div class="row-fluid">
+                    <div class="custommenus pull-left">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target="#essentialmenus">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                                            <div class="pull-right">
+                       <!-- <div class="usermenu navbarrightitem">
+                            <ul class="nav"><li class="dropdown"></li></ul>                        </div>-->
+                        <div class="messagemenu navbarrightitem">
+                                                    </div>
+                        <div class="navbarrightitem">
+                                                    </div>
+                                                                        <div id="custom_menu_editing" class="navbarrightitem">
+                                                    </div>
+                        <div class="navbarrightitem">
+                                                    </div>
+                    </div>
+                        <div id='essentialmenus' class="nav-collapse collapse pull-left">
+															   
+                            <ul class="nav"></ul>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+</header>
+
+<!--  <div id="security-message">Σας ενημερώνουμε ότι την Τρίτη 22/05/2018 μεταξύ 12:00-16:00 θα πραγματοποιηθούν τεχνικές εργασίες
+ στην πλατφόρμα elearning.auth.gr. Η υπηρεσία δεν θα είναι διαθέσιμη κατά το διάστημα αυτό. </div> --> 
+
+
+<div id="page" class="container-fluid">
+    <!-- Start Main Regions -->
+    <div id="page-content" class="row-fluid">
+        <section id="region-main" class="span12">
+            <span class="notifications" id="user-notifications"></span><div role="main"><span id="maincontent"></span><script>
+//stniavi
+jQuery('document').ready(function($){
+	if(document.cookie.indexOf('isSamlUser') > -1 && document.referrer.indexOf('login.auth.gr') === -1){
+		window.location = '/auth/saml/index.php';
+	}
+});
+</script>
+<div class="loginbox clearfix onecolumn">
+  <div class="loginpanel">
+    <h2>Σύνδεση στο elearning</h2>
+
+
+<!-- <div id="content_banner_container">
+          <div class="banner_box" id="banner_box_title">
+            <div id="banner_box_left">
+              <img src="https://exams.it.auth.gr/theme/essential/pix/elearning-128x128.png" id="banner_logo" width="70px" alt="">
+              <span id="banner_text_servicename">elearning</span><span id="banner_text_auth">.auth</span>
+            </div>
+            
+          </div>
+          
+
+          
+          <a href="index.php">
+            <div class="banner_login_button" id="banner_login_button_specific">
+              <span class="banner_login_button_text" id="banner_login_button_text_specific">Είσοδος<span>
+            </span></span></div>
+          </a>
+</div> -->
+<!--  <div id="content_banner_container">
+  <div class="ui_banner ui--clearfix">
+
+                    <div class="ui_banner__box ui_banner__box--title ui_banner__box--title_simplelogin" id="ui_banner__box--title_specific">
+                            <img class="ui_banner__logo" id="ui_banner__logo_specific" src="https://cdn.it.auth.gr/images/logos/services/elearning/elearning-128.png" alt="">
+                            <span class="ui_banner__text--servicename" id="ui_banner__text--servicename_specific">elearning</span>
+                        <span class="ui_banner__text--auth" id="ui_banner__text--auth_specific">.auth</span>
+                    </div>
+
+              <a href="index.php">
+                    <div class="ui_banner__box ui_banner__box--login ui_banner__box--login_simplelogin" id="ui_banner__box--login_specific">
+                        <input class="ui_banner__box--login_input-button ui--backgroundcolor_of_service" id="ui_banner__box--login_input-button_specific" value="" type="submit">
+
+                    </div>
+              </a>
+      </div>
+</div> -->
+
+  <div id="content_login" class="no_padding_content"> 
+  <div class=".ui_box .ui_box--no_style ui--clearfix" id="login_container">
+
+            <div class="ui_box ui_box--66-33-first" id="ui_banner__box--auth">
+              <div class="ui_title--primary"> Σύνδεση για μέλη του ΑΠΘ </div>
+
+
+               <div id="auth_login_area" class="ui_text--size_default">
+                <div id="auth_login_icon"><img src="https://exams.it.auth.gr/theme/essential/pix/accounts-elearning.png" alt="Picture of User login" title="Picture of User login" class="userlogin" width="59px"></div>
+                <div id="auth_login_text">Σύνδεση με χρήση του ιδρυματικού λογαριασμού. <br/>Για όλα τα μέλη, φοιτητές και διδάσκοντες του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης </div>
+               </div>
+
+
+               <a href="index.php" class="ui_button ui_button--full_width" id="auth_login_button">
+                   <!--   <div class="ui_banner__box ui_banner__box--login ui_banner__box--login_simplelogin" id="ui_banner__box--login_specific"> -->
+                      <!--   <input class="ui_banner__box--login_input-button ui--backgroundcolor_of_service" id="ui_banner__box--login_input-button_specific" value="" type="submit"> -->
+<!--                <div class="ui_banner ui_banner__box--login_input-button"></div>
+ -->                <span class="ui_banner__box--login_button_text" id="ui_banner__box--login_button_text_specific">Είσοδος</span>
+                     <!-- </div> -->
+
+
+               </a>
+
+
+            </div>
+
+
+<!-- <br/><b><hr/></b>
+<a id="showHide" align="center" ><h2>[+] <?php// echo  get_string('otherloginstring', 'local_mystrings');  ?> </h2></a>  -->
+  <!--   <div id="toggleText"> --> <!-- toggle area --> 
+  <div class="ui_box ui_box--border_only ui_box--66-33-second" id="ui_banner__box--other" style="background-color:#FFF !important;">
+
+    <div class="ui_title--primary" id="otherloginstring_area"> Σύνδεση για ΜΗ μέλη του ΑΠΘ </div>
+
+     <div id="other_login_text" class="ui_text--size_default">
+                Σύνδεση με χρήση κωδικών που έχετε λάβει από την Υπηρεσία Υποστήριξης Ηλεκτρονικών Μαθημάτων ΜΟΝΟ για την είσοδό σας στο elearning.auth.gr 
+               </div>
+
+      <div class="subcontent loginsub">
+        <div class="desc">
+          (Τα cookies πρέπει να είναι ενεργοποιημένα στον περιηγητή σας)<span class="helptooltip">
+    <a href="https://elearning.auth.gr/help.php?component=moodle&amp;identifier=cookiesenabled&amp;lang=el" title="Βοήθεια για Τα cookies πρέπει να είναι ενεργοποιημένα στον περιηγητή σας" aria-haspopup="true" target="_blank"><img class="icon iconhelp" alt="Βοήθεια για Τα cookies πρέπει να είναι ενεργοποιημένα στον περιηγητή σας" title="Βοήθεια για Τα cookies πρέπει να είναι ενεργοποιημένα στον περιηγητή σας" src="https://elearning.auth.gr/theme/image.php/essential/core/1610030794/help" /></a>
+</span>        </div>
+                <form action="https://elearning.auth.gr/login/index.php" method="post" id="login"  >
+          <div class="loginform">
+            <div class="form-label"><label for="username">Όνομα χρήστη</label></div>
+            <div class="form-input">
+              <input type="text" name="username" id="username" size="15" value="" />
+            </div>
+            <div class="clearer"><!-- --></div>
+            <div class="form-label"><label for="password">Κωδικός πρόσβασης</label></div>
+            <div class="form-input">
+              <input type="password" name="password" id="password" size="15" value=""  />
+              <input type="submit" id="loginbtn" value="Σύνδεση" />
+            </div>
+          </div>
+            <div class="clearer"><!-- --></div>
+                            <div class="rememberpass">
+                  <input type="checkbox" name="rememberusername" id="rememberusername" value="1"  />
+                  <label for="rememberusername">Να αποθηκευτεί το όνομα χρήστη</label>
+              </div>
+                        <div class="clearer"><!-- --></div>
+          <div class="forgetpass"><a href="https://elearning.auth.gr/login/forgot_password.php">Ξεχάσατε το όνομα χρήστη ή τον κωδικό πρόσβασης;</a></div>
+        </form>
+      </div>
+</hr>
+      <div class="subcontent guestsub">
+        <div class="desc">
+          Μερικά μαθήματα μπορεί να επιτρέπουν πρόσβαση επισκεπτών        </div>
+        <form action="https://elearning.auth.gr/login/index.php" method="post" id="guestlogin">
+          <div class="guestform">
+            <input type="hidden" name="username" value="guest" />
+            <input type="hidden" name="password" value="guest" />
+            <input type="submit" value="Σύνδεση ως επισκέπτης" />
+          </div>
+        </form>
+      </div>
+   <!--  </div> -->
+    <div class="signuppanel">
+    <!--  <h3>Είναι η πρώτη σας φορά εδώ;</h3> -->
+      <div class="subcontent">
+      </div>
+    </div>
+</div> <!-- end of toogle div -->
+      </div>
+</div>
+</div> <!-- end of login panel div -->
+</div>
+
+<br/><br/><br/><br/><br/></div>        </section>
+    </div>
+    <!-- End Main Regions -->
+</div>
+
+    <footer role="contentinfo" id="page-footer">
+        <div class="container-fluid">
+                        <div class="row-fluid footerblocks">
+                <!--<div class="footerblock span4"> -->
+                                    </div>
+                <!-- <div class="footerblock span4"> -->
+                                    </div>
+                <!-- <div class="footerblock span4"> -->
+                                    </div>
+            </div>
+            <div class="footerlinks row-fluid">
+                
+                <!-- <span class="helplink"></span> -->
+                                    <span class="copy">&copy;2021 Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης</span>
+                                <div class="footnote span12"><table style="margin-left: auto; margin-right: auto; width: 1000px; color: #217a94;" border="0">
+<tbody>
+<tr>
+<td>
+<p><img src="https://elearning.auth.gr/theme/essential/pix/barchart.png" width="33" height="33" /><a href="https://elearning.auth.gr/statistics/stats.html" style="color: #217a94;">Live στατιστικά χρήσης</a></p>
+</td>
+<td>
+<p><img src="https://elearning.auth.gr/theme/essential/pix/lifesaver.png" width="33" height="33" /><a href="https://elearning.auth.gr/teachers/moodleTutorials.php" style="color: #217a94;">οδηγοί για διδάσκοντες</a></p>
+</td>
+<td>
+<p><img src="https://elearning.auth.gr/theme/essential/pix/questionmark.png" width="33" height="33" /><a href="https://elearning.auth.gr/teachers/moodleTutorialsStudents.php" style="color: #217a94;">οδηγοί για φοιτητές</a></p>
+</td>
+<td>
+<p><img src="https://elearning.auth.gr/theme/essential/pix/youtube-logo.png" width="33" height="33" /><a href="https://www.youtube.com/channel/UCL9N0BZSAec4Ds7vOESijfQ" style="color: #217a94;">video tutorials</a></p>
+</td>
+</tr>
+</tbody>
+</table></div>            </div>
+            <div class="footerperformance row-fluid">
+             <!--   <div class="tool_dataprivacy"><a href="https://elearning.auth.gr/admin/tool/dataprivacy/summary.php">Περίληψη διατήρησης δεδομένων</a></div> -->
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="back-to-top" aria-label="Επιστροφή στην κορυφή">
+        <span aria-hidden="true" class="fa fa-angle-up "></span></a>
+<script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://elearning.auth.gr/lib/requirejs.php/1610030794/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://elearning.auth.gr/lib/javascript.php/1610030794/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://elearning.auth.gr/lib/javascript.php/1610030794/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://elearning.auth.gr/lib/javascript.php/1610030794/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://elearning.auth.gr/lib/javascript.php/1610030794/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://elearning.auth.gr/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("el",{
+ "Play": "Aναπαραγωγή",
+ "Pause": "Παύση",
+ "Current Time": "Τρέχων χρόνος",
+ "Duration Time": "Συνολικός χρόνος",
+ "Remaining Time": "Υπολοιπόμενος χρόνος",
+ "Stream Type": "Τύπος ροής",
+ "LIVE": "ΖΩΝΤΑΝΑ",
+ "Loaded": "Φόρτωση επιτυχής",
+ "Progress": "Πρόοδος",
+ "Fullscreen": "Πλήρης οθόνη",
+ "Non-Fullscreen": "Έξοδος από πλήρη οθόνη",
+ "Mute": "Σίγαση",
+ "Unmute": "Kατάργηση σίγασης",
+ "Playback Rate": "Ρυθμός αναπαραγωγής",
+ "Subtitles": "Υπότιτλοι",
+ "subtitles off": "απόκρυψη υπότιτλων",
+ "Captions": "Λεζάντες",
+ "captions off": "απόκρυψη λεζάντων",
+ "Chapters": "Κεφάλαια",
+ "Close Modal Dialog": "Κλείσιμο παραθύρου",
+ "Descriptions": "Περιγραφές",
+ "descriptions off": "απόκρυψη περιγραφών",
+ "Audio Track": "Ροή ήχου",
+ "You aborted the media playback": "Ακυρώσατε την αναπαραγωγή",
+ "A network error caused the media download to fail part-way.": "Ένα σφάλμα δικτύου προκάλεσε την αποτυχία μεταφόρτωσης του αρχείου προς αναπαραγωγή.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "Το αρχείο προς αναπαραγωγή δεν ήταν δυνατό να φορτωθεί είτε γιατί υπήρξε σφάλμα στον διακομιστή ή το δίκτυο, είτε γιατί ο τύπος του αρχείου δεν υποστηρίζεται.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "Η αναπαραγωγή ακυρώθηκε είτε λόγω κατεστραμμένου αρχείου, είτε γιατί το αρχείο απαιτεί λειτουργίες που δεν υποστηρίζονται από το πρόγραμμα περιήγησης που χρησιμοποιείτε.",
+ "No compatible source was found for this media.": "Δεν βρέθηκε συμβατή πηγή αναπαραγωγής για το συγκεκριμένο αρχείο.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "Το αρχείο προς αναπαραγωγή είναι κρυπτογραφημένo και δεν υπάρχουν τα απαραίτητα κλειδιά αποκρυπτογράφησης.",
+ "Play Video": "Αναπαραγωγή βίντεο",
+ "Close": "Κλείσιμο",
+ "Modal Window": "Aναδυόμενο παράθυρο",
+ "This is a modal window": "Το παρών είναι ένα αναδυόμενο παράθυρο",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "Αυτό το παράθυρο μπορεί να εξαφανιστεί πατώντας το πλήκτρο Escape ή πατώντας το κουμπί κλεισίματος.",
+ ", opens captions settings dialog": ", εμφανίζει τις ρυθμίσεις για τις λεζάντες",
+ ", opens subtitles settings dialog": ", εμφανίζει τις ρυθμίσεις για τους υπότιτλους",
+ ", opens descriptions settings dialog": ", εμφανίζει τις ρυθμίσεις για τις περιγραφές",
+ ", selected": ", επιλεγμένο"
+});
+
+    });
+});;
+M.util.js_pending('theme_essential/header');
+require(['theme_essential/header'], function(amd) {
+    amd.init();
+    M.util.js_complete('theme_essential/header');
+});;
+M.util.js_pending('theme_essential/footer');
+require(['theme_essential/footer'], function(amd) {
+    amd.init();
+    M.util.js_complete('theme_essential/footer');
+});;
+M.util.js_pending('theme_essential/fitvids');
+require(['theme_essential/fitvids'], function(amd) {
+    amd.init();
+    M.util.js_complete('theme_essential/fitvids');
+});;
+
+require(['core/yui'], function(Y) {
+    M.util.init_skiplink(Y);
+});
+;
+M.util.js_pending('core/log');
+require(['core/log'], function(amd) {
+    amd.setConfig({"level":"warn"});
+    M.util.js_complete('core/log');
+});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://elearning.auth.gr/theme/javascript.php/essential/1610030794/footer"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u03a4\u03b5\u03bb\u03b5\u03c5\u03c4\u03b1\u03af\u03b1 \u03c4\u03c1\u03bf\u03c0\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7","name":"\u038c\u03bd\u03bf\u03bc\u03b1","error":"\u03a3\u03c6\u03ac\u03bb\u03bc\u03b1","info":"\u03a0\u03bb\u03b7\u03c1\u03bf\u03c6\u03bf\u03c1\u03af\u03b5\u03c2","yes":"\u039d\u03b1\u03b9","no":"\u038c\u03c7\u03b9","ok":"\u039f\u039a","cancel":"\u0391\u03ba\u03cd\u03c1\u03c9\u03c3\u03b7","morehelp":"\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b7 \u03b2\u03bf\u03ae\u03b8\u03b5\u03b9\u03b1","loadinghelp":"\u03a6\u03cc\u03c1\u03c4\u03c9\u03c3\u03b7...","confirm":"\u0395\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03af\u03c9\u03c3\u03b7","areyousure":"\u0395\u03af\u03c3\u03c4\u03b5 \u03c3\u03af\u03b3\u03bf\u03c5\u03c1\u03bf\u03c2 ;","closebuttontitle":"\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf","unknownerror":"\u0386\u03b3\u03bd\u03c9\u03c3\u03c4\u03bf \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1"},"repository":{"type":"\u03a4\u03cd\u03c0\u03bf\u03c2","size":"\u039c\u03ad\u03b3\u03b5\u03b8\u03bf\u03c2","invalidjson":"\u039c\u03b7 \u03ad\u03b3\u03ba\u03c5\u03c1\u03b7 \u03c3\u03c5\u03bc\u03b2\u03bf\u03bb\u03bf\u03c3\u03b5\u03b9\u03c1\u03ac JSON","nofilesattached":"\u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03c3\u03c5\u03bd\u03b7\u03bc\u03bc\u03ad\u03bd\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03b1","filepicker":"\u0395\u03c0\u03b9\u03bb\u03bf\u03b3\u03ad\u03b1\u03c2 \u03b1\u03c1\u03c7\u03b5\u03af\u03bf\u03c5","logout":"\u0388\u03be\u03bf\u03b4\u03bf\u03c2","nofilesavailable":"\u0394\u03b5\u03bd \u03c5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd \u03b4\u03b9\u03b1\u03b8\u03ad\u03c3\u03b9\u03bc\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03b1","norepositoriesavailable":"\u039b\u03c5\u03c0\u03bf\u03cd\u03bc\u03b1\u03c3\u03c4\u03b5, \u03ba\u03b1\u03bd\u03ad\u03bd\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b1 \u03c4\u03c1\u03ad\u03c7\u03bf\u03bd\u03c4\u03b1 \u03b1\u03c0\u03bf\u03b8\u03b5\u03c4\u03ae\u03c1\u03b9\u03b1 \u03b4\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03b5\u03af \u03bd\u03b1 \u03b5\u03c0\u03b9\u03c3\u03c4\u03c1\u03ad\u03c8\u03b5\u03b9 \u03b1\u03c1\u03c7\u03b5\u03af\u03b1 \u03bc\u03b5 \u03c4\u03bf\u03bd \u03b1\u03c0\u03b1\u03b9\u03c4\u03bf\u03cd\u03bc\u03b5\u03bd\u03bf \u03bc\u03bf\u03c1\u03c6\u03cc\u03c4\u03c5\u03c0\u03bf.","fileexistsdialogheader":"\u03a4\u03bf \u03b1\u03c1\u03c7\u03b5\u03af\u03bf \u03c5\u03c0\u03ac\u03c1\u03c7\u03b5\u03b9","fileexistsdialog_editor":"\u0388\u03bd\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03bf \u03bc\u03b5 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03cc\u03bd\u03bf\u03bc\u03b1 \u03ad\u03c7\u03b5\u03b9 \u03ae\u03b4\u03b7 \u03b5\u03c0\u03b9\u03c3\u03c5\u03bd\u03b1\u03c6\u03b8\u03b5\u03af \u03c3\u03c4\u03bf \u03ba\u03b5\u03af\u03bc\u03b5\u03bd\u03bf \u03c0\u03bf\u03c5 \u03b5\u03c0\u03b5\u03be\u03b5\u03c1\u03b3\u03ac\u03b6\u03b5\u03c3\u03c4\u03b5.","fileexistsdialog_filemanager":"\u0388\u03bd\u03b1 \u03b1\u03c1\u03c7\u03b5\u03af\u03bf \u03bc\u03b5 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03cc\u03bd\u03bf\u03bc\u03b1 \u03ad\u03c7\u03b5\u03b9 \u03ae\u03b4\u03b7 \u03b5\u03c0\u03b9\u03c3\u03c5\u03bd\u03b1\u03c6\u03b8\u03b5\u03af","renameto":"\u039c\u03b5\u03c4\u03bf\u03bd\u03bf\u03bc\u03b1\u03c3\u03af\u03b1 \u03c3\u03b5 \u00ab{$a}\u00bb","referencesexist":"\u03a5\u03c0\u03ac\u03c1\u03c7\u03bf\u03c5\u03bd {$a} \u03c8\u03b5\u03c5\u03b4\u03ce\u03bd\u03c5\u03bc\u03b1\/\u03b1\u03c1\u03c7\u03b5\u03af\u03b1 \u03c3\u03c5\u03bd\u03c4\u03cc\u03bc\u03b5\u03c5\u03c3\u03b7\u03c2 \u03c0\u03bf\u03c5 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03bf\u03cd\u03bd \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03b1\u03c1\u03c7\u03b5\u03af\u03bf \u03c9\u03c2 \u03c0\u03b7\u03b3\u03ae \u03c4\u03bf\u03c5\u03c2","select":"\u0395\u03c0\u03b9\u03bb\u03ad\u03be\u03c4\u03b5"},"admin":{"confirmdeletecomments":"\u0395\u03af\u03c3\u03c4\u03b5 \u03ad\u03c4\u03bf\u03b9\u03bc\u03bf\u03b9 \u03bd\u03b1 \u03b4\u03b9\u03b1\u03b3\u03c1\u03ac\u03c8\u03b5\u03c4\u03b5 \u03c3\u03c7\u03cc\u03bb\u03b9\u03b1, \u03b5\u03af\u03c3\u03c4\u03b5 \u03c3\u03af\u03b3\u03bf\u03c5\u03c1\u03bf\u03b9;","confirmation":"\u0395\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03af\u03c9\u03c3\u03b7"},"block":{"addtodock":"\u039c\u03b5\u03c4\u03b1\u03ba\u03af\u03bd\u03b7\u03c3\u03b7 \u03b1\u03c5\u03c4\u03bf\u03cd (\u03c4\u03bf\u03c5 \u03bc\u03c0\u03bb\u03bf\u03ba) \u03c3\u03b5 \u03bc\u03b9\u03b1 \u03b5\u03b9\u03b4\u03b9\u03ba\u03ae \u03b8\u03ad\u03c3\u03b7 \u03c0\u03bb\u03b5\u03c5\u03c1\u03b9\u03ba\u03ae\u03c2 \u03b5\u03bb\u03b1\u03c7\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7\u03c2.","undockitem":"\u0395\u03c0\u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac \u03b1\u03c0\u03cc \u03c0\u03bb\u03b5\u03c5\u03c1\u03b9\u03ba\u03ae \u03b5\u03bb\u03b1\u03c7\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c3\u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03b8\u03ad\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03bf\u03c5","dockblock":"\u03a0\u03bb\u03b5\u03c5\u03c1\u03b9\u03ba\u03ae \u03b5\u03bb\u03b1\u03c7\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03bc\u03c0\u03bb\u03bf\u03ba \u00ab{$a}\u00bb","undockblock":"\u0395\u03c0\u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac \u03b1\u03c0\u03cc \u03c0\u03bb\u03b5\u03c5\u03c1\u03b9\u03ba\u03ae \u03b5\u03bb\u03b1\u03c7\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03bf\u03c5 \u03bc\u03c0\u03bb\u03bf\u03ba \u00ab{$a}\u00bb \u03c3\u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03b8\u03ad\u03c3\u03b7 \u03c4\u03bf\u03c5","undockall":"\u0395\u03c0\u03b1\u03bd\u03b1\u03c6\u03bf\u03c1\u03ac \u03b1\u03c0\u03cc \u03c0\u03bb\u03b5\u03c5\u03c1\u03b9\u03ba\u03ae \u03b5\u03bb\u03b1\u03c7\u03b9\u03c3\u03c4\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03cc\u03bb\u03c9\u03bd \u03c3\u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b7 \u03b8\u03ad\u03c3\u03b7 \u03c4\u03bf\u03c5\u03c2","hidedockpanel":"\u0391\u03c0\u03cc\u03ba\u03c1\u03c5\u03c8\u03b7 \u03b1\u03bd\u03b1\u03b4\u03c5\u03cc\u03bc\u03b5\u03bd\u03bf\u03c5 \u03c0\u03ac\u03bd\u03b5\u03bb","hidepanel":"\u0391\u03c0\u03cc\u03ba\u03c1\u03c5\u03c8\u03b7 \u03c0\u03af\u03bd\u03b1\u03ba\u03b1"},"langconfig":{"thisdirectionvertical":"btt"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    tex2jax: {\r\n    inlineMath: [ ['$','$'], [\"\\\\(\",\"\\\\)\"] ],\r\n    displayMath: [ ['$$','$$'], [\"\\\\[\",\"\\\\]\"] ],\r\n    processEscapes: true\r\n    },\r\n    TeX: { extensions: ['enclose.js'] },\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"en"});
+});
+Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-core-dock-loader",function() {M.core.dock.loader.initLoader();
+});
+M.util.help_popups.setup(Y);
+Y.use("moodle-core-popuphelp",function() {M.core.init_popuphelp();
+});
+ M.util.js_pending('random5ffdacbca34f32'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5ffdacbca34f32'); });
+})();
+//]]>
+</script>
+</body>
+</html>
+<!-- Essential theme version: 2018051900 is developed by Gareth J Barnard: about.me/gjbarnard -->
